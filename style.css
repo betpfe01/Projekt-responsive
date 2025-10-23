@@ -30,7 +30,7 @@ header section{
 .footer-links {
      display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     padding: 0;
 
 }
