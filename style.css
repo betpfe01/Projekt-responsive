@@ -112,17 +112,23 @@ button #knap {
     display: flex;
 }
 
+@media (min-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
 header {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
 }
 .container {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
 }
 .hero h1 {
     text-align: center;
+    font-size: 50px;
 }
 .buttons {
     display: flex;
@@ -152,6 +158,8 @@ footer {
 header button {
     display: none;
 }
+
+
 }
 
 
