@@ -1,0 +1,173 @@
+body{
+    background-color: #1E1E1E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-links {
+     display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+
+}
+
+.footer-links li a {
+     text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image:url("Hero Section-2.png") ;
+    
+    
+
+}
+
+.hero span {
+    background-color: #262626;
+    border-radius: 12px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.knap {
+    background-color: #262626;
+    display: flex;
+}
+
+.logosection {
+    display: flex;
+    justify-content: center;
+}
+ 
+#ourwork {
+    background-color: #242424;
+    color: white;
+    font-size: 16PX;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#contactus {
+    background-color: greenyellow;
+    font-size: 8pxpx;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button #knap {
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+    color: white(205, 109, 109);
+  
+}
+
+.contact {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+header {
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    flex-direction: column;
+    gap: 10px;
+}
+.hero h1 {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.logosection {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-content: center;
+    column-gap: 40px;
+    padding: 10px;
+    height: auto;
+
+}
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+.ourservices {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("Our Services Section.png");
+
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.box {
+    padding: 40px;
+}
+
+footer section {
+    display: flex;
+    color: white;
+    font-size: 18px;
+}
